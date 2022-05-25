@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="387F176C-CBC9-7BE9-005B-567705A0FDA7" name="ADMIN" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="2DF7DD90-D0DB-857F-E819-ED092D6ADABC" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="14777BAB-809F-212B-C904-D2040687D840" name="DimCustomer" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="2DF7DD90-D0DB-857F-E819-ED092D6ADABC" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="9C7709AA-89DC-7C68-5A4C-75F565D65704" name="DimDate" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="2DF7DD90-D0DB-857F-E819-ED092D6ADABC" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="F3D7B31A-F702-1A1D-C124-85FA1B5B240F" name="DIMPRODUCT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="2DF7DD90-D0DB-857F-E819-ED092D6ADABC" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

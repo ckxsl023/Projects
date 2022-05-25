@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="2786900A-93CA-86E5-0F0D-D967FFE261A6" name="ADMIN" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="FE8712FB-49D0-8D37-4B71-0F6F4B216632" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="4D9D4C07-6142-0FBE-F1AA-651B14B4A5DD" name="DimCustomer" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="FE8712FB-49D0-8D37-4B71-0F6F4B216632" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="F39D4119-155A-399A-C261-14A7F5655F4C" name="DimDate" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="FE8712FB-49D0-8D37-4B71-0F6F4B216632" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="92DEB5B1-E8F1-C788-DC02-FD8187C5B989" name="DIMPRODUCT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="FE8712FB-49D0-8D37-4B71-0F6F4B216632" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="46300F47-EFD5-94C1-E225-7214A6DF82D5" name="DimSalesPerson" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="FE8712FB-49D0-8D37-4B71-0F6F4B216632" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="6C71A342-DF4B-2924-2376-42A97B070BD2" name="DimStores" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="FE8712FB-49D0-8D37-4B71-0F6F4B216632" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="C3929629-4DD1-33E3-9837-53782D265238" name="FactProductSales" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="FE8712FB-49D0-8D37-4B71-0F6F4B216632" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

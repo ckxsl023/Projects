@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DIMPRODUCT" directorySegmentName="seg_0" id="92DEB5B1-E8F1-C788-DC02-FD8187C5B989">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:32:56 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ProductName" id="0CF39A89-0948-F243-5DD9-BE0DBBD308B3">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:32:56 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="ProductAltKey" id="22297586-D1DA-0603-E36B-ABAAB98B7763">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:32:56 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="ProductSalesCost" id="6F019FF5-2614-4A7F-3B7A-9F4DCB683727">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:32:56 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="ProductKey" id="81EE6C65-9A65-2278-F47B-6FFDC6989213">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:32:56 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="ProductActualCost" id="AE2B8CBF-0839-4ECA-E53F-E9AC20EAE97D">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:32:56 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DIMPRODUCT_PK" id="E4D35AC3-5B3E-9FAA-E239-C207A0EFF7AC">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:32:56 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DIMPRODUCT_PK" id="3F176525-2798-B3A6-932B-AC4407C50099">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:32:56 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

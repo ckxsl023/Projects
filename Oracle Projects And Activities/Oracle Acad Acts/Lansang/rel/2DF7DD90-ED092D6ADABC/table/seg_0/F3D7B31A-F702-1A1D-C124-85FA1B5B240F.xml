@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3D7B31A-F702-1A1D-C124-85FA1B5B240F" schemaObject="387F176C-CBC9-7BE9-005B-567705A0FDA7" name="DIMPRODUCT">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:08 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<usedAsRemoteObject>true</usedAsRemoteObject>
+<importedID>2CBF7332-DE63-C20D-E1CE-1369C5FD72A8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductKey" id="FB626D32-A782-EAC2-6F5B-1658A62AC57A">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:08 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>92E85E25-CCAD-A5C5-58EA-494DAE2E81C9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductAltKey" id="B7EF2451-291A-0D97-793B-FE6C56FD9DFF">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:08 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>A473EB15-180C-65EC-2FD7-CF4B8A97C35E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductName" id="B8561BC6-780E-4202-1608-A8213D843895">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:08 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>4A1E748E-EA2F-0700-3B41-4D40CC91B621</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductActualCost" id="1CEA3C26-22E5-A10D-C719-F0D60B2E6449">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:08 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>D380A4DC-AEA2-3324-AC72-7755D1263E8B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductSalesCost" id="AAC87841-9851-853A-D061-6FA0FCA720A1">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:08 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>C38FB9D3-3EE4-050B-CA4F-262560627D24</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C3B0969-4F4E-34D0-83C0-945E6A5A0EE2" name="DIMPRODUCT_PK">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:08 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<importedID>D78A2739-EA37-CE7E-9909-5295D4A91F56</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB626D32-A782-EAC2-6F5B-1658A62AC57A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD7FD70A-022C-D984-F898-9576F9ECEA5E" schemaObject="387F176C-CBC9-7BE9-005B-567705A0FDA7" name="DIMPRODUCT_PK">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:08 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<importedID>903D7929-F5FF-A27F-5A5E-5FB27330CD56</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB626D32-A782-EAC2-6F5B-1658A62AC57A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

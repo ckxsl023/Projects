@@ -1,0 +1,247 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3929629-4DD1-33E3-9837-53782D265238" schemaObject="2786900A-93CA-86E5-0F0D-D967FFE261A6" name="FactProductSales">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>FactProductSales</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:49 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TransactionID" id="FE2CFD34-C92F-BE4A-92CD-585E561FEBAD">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>FactProductSales</sourceObjSchema>
+<sourceObjName>TransactionID</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:50 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN1" id="0E372F68-B23A-920E-65C3-5DDEB7FF3B2E">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>FactProductSales</sourceObjSchema>
+<sourceObjName>COLUMN1</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:50 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN2" id="385B79AB-5BBF-6292-D2F4-D19B06613CB0">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>FactProductSales</sourceObjSchema>
+<sourceObjName>COLUMN2</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:50 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SalesTimeKey" id="1E1FECB6-B3CC-A0F1-0D3F-620728397967">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>FactProductSales</sourceObjSchema>
+<sourceObjName>SalesTimeKey</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:50 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN4" id="36DFA4D1-41E4-6903-5A29-599F1BEED19F">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>FactProductSales</sourceObjSchema>
+<sourceObjName>COLUMN4</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:50 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN5" id="D856FC9E-C84C-A332-54F2-F0BBF4F123B9">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>FactProductSales</sourceObjSchema>
+<sourceObjName>COLUMN5</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:50 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN6" id="B9B3BC51-F2AF-7680-7C3F-7417D0D71B5B">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>FactProductSales</sourceObjSchema>
+<sourceObjName>COLUMN6</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:50 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN7" id="E259A485-B755-7253-1BB8-A868E8371AF6">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>FactProductSales</sourceObjSchema>
+<sourceObjName>COLUMN7</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:50 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN8" id="1208A11D-96BE-57AE-3778-9223AC4C2629">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>FactProductSales</sourceObjSchema>
+<sourceObjName>COLUMN8</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:50 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN9" id="AF7481F2-58E3-68A8-C3F9-3A9C6B5BDD09">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>FactProductSales</sourceObjSchema>
+<sourceObjName>COLUMN9</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:50 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN10" id="89495181-C3E3-BFA8-742E-2E17F152BE27">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>FactProductSales</sourceObjSchema>
+<sourceObjName>COLUMN10</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:50 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN11" id="CC6BE9D9-2700-87F0-65C2-714A5241EB21">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>FactProductSales</sourceObjSchema>
+<sourceObjName>COLUMN11</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:50 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COLUMN12" id="74D1D670-66D4-546A-374C-923D32E67646">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>FactProductSales</sourceObjSchema>
+<sourceObjName>COLUMN12</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:50 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A4693C6-FFC8-4F65-456C-F2D3228B7326" name="FactProductSales_PK">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>FactProductSales_PK</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:51 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE2CFD34-C92F-BE4A-92CD-585E561FEBAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D376D4A-AF4F-5992-838A-F419BA6AEED3" schemaObject="2786900A-93CA-86E5-0F0D-D967FFE261A6" name="FactProductSales_PK">
+<sourceConnName>DB+202106220911</sourceConnName>
+<sourceObjSchema>ADMIN</sourceObjSchema>
+<sourceObjName>FactProductSales_PK</sourceObjName>
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:33:51 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE2CFD34-C92F-BE4A-92CD-585E561FEBAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

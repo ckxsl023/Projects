@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D9D4C07-6142-0FBE-F1AA-651B14B4A5DD" name="DimCustomer">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:32:15 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<remoteDesignID>BF66A943-BDE8-D847-4D3D-B653AA277907</remoteDesignID>
+<remoteModelID>2DF7DD90-D0DB-857F-E819-ED092D6ADABC</remoteModelID>
+<remoteObjectID>14777BAB-809F-212B-C904-D2040687D840</remoteObjectID>
+<remoteObjectRelativeStorageName>\rel\2DF7DD90-ED092D6ADABC\table\seg_0\14777BAB-809F-212B-C904-D2040687D840.xml</remoteObjectRelativeStorageName>
+<nameHasQuotes>true</nameHasQuotes>
+<remoteSchemaName>ADMIN</remoteSchemaName>
+<remoteSchemaID>387F176C-CBC9-7BE9-005B-567705A0FDA7</remoteSchemaID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CustomerID" id="266DFC01-6F37-FAEE-B233-648B0773848E">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:32:15 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<remoteObjectID>55E59A62-1440-EE91-AF69-8925D1AECFEC</remoteObjectID>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7839E4A-4A54-7695-8EA5-03A3CA8E5276" name="DimCustomer_PK">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:32:15 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<remoteObjectID>2B46EBD3-E58F-33E5-72F4-52312908B8E7</remoteObjectID>
+<remoteSchemaName>ADMIN</remoteSchemaName>
+<remoteSchemaID>387F176C-CBC9-7BE9-005B-567705A0FDA7</remoteSchemaID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="266DFC01-6F37-FAEE-B233-648B0773848E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,431 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C7709AA-89DC-7C68-5A4C-75F565D65704" schemaObject="387F176C-CBC9-7BE9-005B-567705A0FDA7" name="DimDate">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<usedAsRemoteObject>true</usedAsRemoteObject>
+<importedID>A8ADCB3F-BCF8-F7D6-0450-D024B6BBE7FD</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DateKey" id="27C23904-3AA5-8C58-D7CE-5457BC2D1A25">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>C8B443B9-DC25-69D3-14EA-4DA243243BA5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FullDate" id="274CC4CC-AC22-22AF-7577-4D11B710A7D2">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>B5746EE1-3D87-3688-2EE8-E909C2AD8024</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DayOfMonth" id="60330CDC-3C7F-D2A4-74A5-80FAD4208744">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>55A42A64-D0F1-F075-B539-6D24743DFA18</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DaySuffix" id="44A0BA00-4B5C-0CA1-132E-45E2CA191D7B">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>AFEB7A13-383F-2158-21F1-06B1980A927B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DayName" id="605629E5-E199-8F25-45DD-1A9A3F979AA4">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>13240D2B-45E9-A378-332C-AFBB6708F32C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DayOfWeekInMonth" id="28C51597-928B-DD2C-19A2-BB7C781FAE1D">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>6133CB9E-E47F-8904-1F9D-08596B20C68D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DayOfWeekInYear" id="0ECE1D17-600A-2FA8-2F3C-7FBE9F8782A7">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>DF8843A2-B8C4-5941-6BB2-A424AFFFFDFD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DayOfQuarter" id="5B735115-8268-BB7F-5857-8B9EC8C331A6">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>85A8C6B5-5BEC-1943-417C-337EAA37C339</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DayOfYear" id="56DF1962-B45B-144A-C594-BD0E01586B1E">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>D4DCF7C6-C3AC-14A1-CF90-5156EEF08E18</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WeekOfMonth" id="A0DB893D-A726-BCF8-B86D-E083F21F80DB">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>8162D1A5-29DE-07BE-AFCE-3274A52903E7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WeekOfQuarter" id="9B8A7AF0-8F1F-431C-0B0E-0C38104359D2">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>7839CD63-B32A-9262-385C-EB7C3F68B485</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WeekOfYear" id="892E9C65-4C31-6BC5-0DD1-CAD780FBC929">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>08B267C1-C0DA-CFED-3832-A76AD73EF510</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FullMonth" id="8AA9EE00-DBB9-3313-F8C5-DA3930341531">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>7B278092-1A47-59C1-2BB2-FBDCE7219BAD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MonthName" id="81049460-6001-8B54-3C71-2EC6B04DE0F5">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>CB015128-51C3-D496-6F5D-022D8214A274</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MonthOfQuarter" id="DB92F5D1-DC2F-6513-9B77-DE13FBEEE983">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>BD9AF036-663A-78D5-562F-C5C5BB509B8A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quarter" id="5C4E2A9F-3690-BC59-30CB-68B13A924DB1">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>DF52392E-8176-EB64-A014-D404F577F9D5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QuarterName" id="57AD7699-C2E9-7811-B77E-1519275C6F2F">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>8A2ABA83-8FF5-A1B8-DE5C-EFDB04EBD97D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FullYear" id="22363E91-402D-F9CB-E255-028445D9769B">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>9A4E779B-CAC1-495B-EFBD-3FB6240F0410</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YearName" id="D718406A-6105-476A-AFD7-28E49EB38CB5">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>339E11DE-5A0A-B28A-BCE9-0B75899E301C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MonthYear" id="6BE3BD34-86F3-4C51-4427-7D27FC78DD59">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>E1BC8F3A-AC7C-6A54-9580-EED1736D420B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MMYYYY" id="A34B6275-1CFF-C6FE-78B0-22C876477DD5">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<importedID>B1C2EC71-D501-9B2B-82FD-F255DBB0EDA0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FirstDayOfMonth" id="96FDD5F3-14F6-E36E-A7EA-16C372893C8A">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>82F009EE-2223-736C-F18B-3B305B576636</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LastDayOfMonth" id="1C8AB235-E9F3-7A33-5F23-519016B2E5D9">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>27741568-B995-1475-D7BC-134B1BFF024F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FirstDayOfQuarter" id="D5AEFFB4-742C-50F1-2F9F-CFDC41F1F827">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>0CACB692-29B2-6395-C0B4-C27D2F561967</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LastDayOfQuarter" id="8408882D-131B-F6E8-AA7D-A9952D4A1934">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>D7474EAD-CB0D-D351-B31D-6A26A404393E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FirstDayOfYear" id="34C9EE1D-3715-7988-2B3E-26141D8C1F74">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>D5D79C84-3F6B-2817-0A6D-42A93FF7F0AF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LastDayOfYear" id="EE40038D-3A88-526A-4F7A-18CD8C97B133">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>ED1FA3E9-7A9E-C091-A673-5D9A5C7C1ED5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsWeekDay" id="D3E4038A-469E-A2B5-30C3-143BDB5BB8B3">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>46E62B55-5FBF-5D2C-DCAF-30F05EEFEDB6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52ABBA97-4F25-26D0-E969-A5DF79DACB78" name="DimDate_PK">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>5DBB09DD-D748-79BC-E844-83A05C9371F1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27C23904-3AA5-8C58-D7CE-5457BC2D1A25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A6C60DF-6470-811C-91BD-1AE2A08539AD" schemaObject="387F176C-CBC9-7BE9-005B-567705A0FDA7" name="DimDate_PK">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>63DD8346-1296-1B4F-1185-BBCAF33EC0A9</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27C23904-3AA5-8C58-D7CE-5457BC2D1A25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DimCustomer" directorySegmentName="seg_0" id="14777BAB-809F-212B-C904-D2040687D840">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:08 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>387F176C-CBC9-7BE9-005B-567705A0FDA7</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B34E3500-01EB-EA98-D9F0-F61F671F6872</segment>
+<tableSpace>6B021772-40A3-5628-FBC9-80843CE54594</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>QUERY HIGH</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CustomerID" id="55E59A62-1440-EE91-AF69-8925D1AECFEC">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:08 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DimCustomer_PK" id="2B46EBD3-E58F-33E5-72F4-52312908B8E7">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:08 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<schemaObject>387F176C-CBC9-7BE9-005B-567705A0FDA7</schemaObject>
+<segment>526D68FF-0485-BA8E-63C5-9D70B2D5589C</segment>
+<tableSpace>6B021772-40A3-5628-FBC9-80843CE54594</tableSpace>
+<indexSegment>526D68FF-0485-BA8E-63C5-9D70B2D5589C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14777BAB-809F-212B-C904-D2040687D840" schemaObject="387F176C-CBC9-7BE9-005B-567705A0FDA7" name="DimCustomer">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:08 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<usedAsRemoteObject>true</usedAsRemoteObject>
+<importedID>39139F03-62B1-5B33-9C03-5F63EFC96F36</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CustomerID" id="55E59A62-1440-EE91-AF69-8925D1AECFEC">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:08 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>2DE768DC-F268-1899-41A8-A551E57AC144</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B46EBD3-E58F-33E5-72F4-52312908B8E7" schemaObject="387F176C-CBC9-7BE9-005B-567705A0FDA7" name="DimCustomer_PK">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:08 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<importedID>414A839F-5580-CE82-5729-EA10B1CD57E2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55E59A62-1440-EE91-AF69-8925D1AECFEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

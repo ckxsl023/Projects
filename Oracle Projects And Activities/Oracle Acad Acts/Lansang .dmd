@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Lansang " id="BF66A943-BDE8-D847-4D3D-B653AA277907" version="3.5">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 02:06:44 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BF66A943-BDE8-D847-4D3D-B653AA277907</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="09C248DF-B90A-6882-AA47-A7C2DCB00F78">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BF66A943-BDE8-D847-4D3D-B653AA277907">
+<designStoragePath>C:\Untitled_1</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

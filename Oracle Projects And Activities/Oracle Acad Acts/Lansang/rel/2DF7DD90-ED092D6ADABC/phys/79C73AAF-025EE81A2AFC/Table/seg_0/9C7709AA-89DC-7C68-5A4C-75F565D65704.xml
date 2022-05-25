@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DimDate" directorySegmentName="seg_0" id="9C7709AA-89DC-7C68-5A4C-75F565D65704">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>387F176C-CBC9-7BE9-005B-567705A0FDA7</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B34E3500-01EB-EA98-D9F0-F61F671F6872</segment>
+<tableSpace>6B021772-40A3-5628-FBC9-80843CE54594</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>QUERY HIGH</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DayOfWeekInYear" id="0ECE1D17-600A-2FA8-2F3C-7FBE9F8782A7">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="LastDayOfMonth" id="1C8AB235-E9F3-7A33-5F23-519016B2E5D9">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="FullYear" id="22363E91-402D-F9CB-E255-028445D9769B">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="FullDate" id="274CC4CC-AC22-22AF-7577-4D11B710A7D2">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="DateKey" id="27C23904-3AA5-8C58-D7CE-5457BC2D1A25">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="DayOfWeekInMonth" id="28C51597-928B-DD2C-19A2-BB7C781FAE1D">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="FirstDayOfYear" id="34C9EE1D-3715-7988-2B3E-26141D8C1F74">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="DaySuffix" id="44A0BA00-4B5C-0CA1-132E-45E2CA191D7B">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="DayOfYear" id="56DF1962-B45B-144A-C594-BD0E01586B1E">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="QuarterName" id="57AD7699-C2E9-7811-B77E-1519275C6F2F">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="DayOfQuarter" id="5B735115-8268-BB7F-5857-8B9EC8C331A6">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="Quarter" id="5C4E2A9F-3690-BC59-30CB-68B13A924DB1">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="DayOfMonth" id="60330CDC-3C7F-D2A4-74A5-80FAD4208744">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="DayName" id="605629E5-E199-8F25-45DD-1A9A3F979AA4">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="MonthYear" id="6BE3BD34-86F3-4C51-4427-7D27FC78DD59">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="MonthName" id="81049460-6001-8B54-3C71-2EC6B04DE0F5">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="LastDayOfQuarter" id="8408882D-131B-F6E8-AA7D-A9952D4A1934">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="WeekOfYear" id="892E9C65-4C31-6BC5-0DD1-CAD780FBC929">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="FullMonth" id="8AA9EE00-DBB9-3313-F8C5-DA3930341531">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="FirstDayOfMonth" id="96FDD5F3-14F6-E36E-A7EA-16C372893C8A">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="WeekOfQuarter" id="9B8A7AF0-8F1F-431C-0B0E-0C38104359D2">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="WeekOfMonth" id="A0DB893D-A726-BCF8-B86D-E083F21F80DB">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="MMYYYY" id="A34B6275-1CFF-C6FE-78B0-22C876477DD5">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IsWeekDay" id="D3E4038A-469E-A2B5-30C3-143BDB5BB8B3">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="FirstDayOfQuarter" id="D5AEFFB4-742C-50F1-2F9F-CFDC41F1F827">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="YearName" id="D718406A-6105-476A-AFD7-28E49EB38CB5">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="MonthOfQuarter" id="DB92F5D1-DC2F-6513-9B77-DE13FBEEE983">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="LastDayOfYear" id="EE40038D-3A88-526A-4F7A-18CD8C97B133">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DimDate_PK" id="5A6C60DF-6470-811C-91BD-1AE2A08539AD">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<schemaObject>387F176C-CBC9-7BE9-005B-567705A0FDA7</schemaObject>
+<segment>526D68FF-0485-BA8E-63C5-9D70B2D5589C</segment>
+<tableSpace>6B021772-40A3-5628-FBC9-80843CE54594</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DimDate_PK" id="52ABBA97-4F25-26D0-E969-A5DF79DACB78">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:28:33 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<segment>526D68FF-0485-BA8E-63C5-9D70B2D5589C</segment>
+<tableSpace>6B021772-40A3-5628-FBC9-80843CE54594</tableSpace>
+<existingIndex>5A6C60DF-6470-811C-91BD-1AE2A08539AD</existingIndex>
+<indexSegment>526D68FF-0485-BA8E-63C5-9D70B2D5589C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

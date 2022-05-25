@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DimCustomer" directorySegmentName="seg_0" id="4D9D4C07-6142-0FBE-F1AA-651B14B4A5DD">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:32:56 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CustomerID" id="266DFC01-6F37-FAEE-B233-648B0773848E">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:32:56 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DimCustomer_PK" id="E7839E4A-4A54-7695-8EA5-03A3CA8E5276">
+<createdBy>admin</createdBy>
+<createdTime>2021-06-22 03:32:56 UTC</createdTime>
+<ownerDesignName>Lansang </ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
