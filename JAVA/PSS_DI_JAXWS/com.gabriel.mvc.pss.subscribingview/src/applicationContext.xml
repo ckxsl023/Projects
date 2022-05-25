@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+<bean id="carloc" class="com.gabriel.mvc.shapesfx.Location">  
+<property name="x" value="100"></property>  
+<property name="y" value="100"></property>  
+</bean>  
+<bean id="bodyloc" class="com.gabriel.mvc.shapesfx.Location">  
+<property name="x" value="100"></property>  
+<property name="y" value="100"></property>  
+</bean>  
+<bean id="frontbodyloc" class="com.gabriel.mvc.shapesfx.Location">  
+<property name="x" value="190"></property>  
+<property name="y" value="120"></property>  
+</bean>  
+<bean id="truckWindowloc" class="com.gabriel.mvc.shapesfx.Location">  
+<property name="x" value="210"></property>  
+<property name="y" value="120"></property>  
+</bean>  
+<bean id="truckGateloc" class="com.gabriel.mvc.shapesfx.Location">  
+<property name="x" value="95"></property>  
+<property name="y" value="100"></property>  
+</bean>  
+<bean id="truckwheelloc" class="com.gabriel.mvc.shapesfx.Location">  
+<property name="x" value="210"></property>  
+<property name="y" value="160"></property>  
+</bean> 
+<bean id="frontwheelloc" class="com.gabriel.mvc.shapesfx.Location">  
+<property name="x" value="170"></property>  
+<property name="y" value="160"></property>  
+</bean>  
+<bean id="backwheelloc" class="com.gabriel.mvc.shapesfx.Location">  
+<property name="x" value="100"></property>  
+<property name="y" value="160"></property>  
+</bean>  
+<bean id="carbody" class="com.gabriel.mvc.shapeimpl.CarBody">  
+<property name="location" ref="bodyloc"></property>  
+<property name="length" value="60"></property>  
+<property name="width" value="90"></property>  
+</bean>  
+<bean id="frontbody" class="com.gabriel.mvc.shapeimpl.TruckFront">  
+<property name="location" ref="frontbodyloc"></property>  
+<property name="length" value="40"></property>  
+<property name="width" value="40"></property>  
+</bean> 
+<bean id="truckWindow" class="com.gabriel.mvc.shapeimpl.TruckWindow">  
+<property name="location" ref="truckWindowloc"></property>  
+<property name="length" value="20"></property>  
+<property name="width" value="20"></property>  
+</bean> 
+<bean id="truckGate" class="com.gabriel.mvc.shapeimpl.TruckGate">  
+<property name="location" ref="truckGateloc"></property>  
+<property name="length" value="60"></property>  
+<property name="width" value="5"></property>  
+</bean> 
+<bean id="truckwheel" class="com.gabriel.mvc.shapeimpl.Wheel">  
+<property name="location" ref="truckwheelloc"></property>  
+<property name="radius" value="20"></property>    
+</bean>  
+<bean id="frontwheel" class="com.gabriel.mvc.shapeimpl.Wheel">  
+<property name="location" ref="frontwheelloc"></property>  
+<property name="radius" value="20"></property>    
+</bean>  
+<bean id="backwheel" class="com.gabriel.mvc.shapeimpl.Wheel">  
+<property name="location" ref="backwheelloc"></property>  
+<property name="radius" value="20"></property>    
+</bean>  
+<bean id="car" class="com.gabriel.mvc.shapeimpl.Car">  
+<property name="location" ref="carloc"></property>
+<property name="truckWheel" ref="truckwheel"></property>
+<property name="frontWheel" ref="frontwheel"></property>
+<property name="backWheel" ref="backwheel"></property>  
+<property name="body" ref="carbody"></property>  
+<property name="frontbody" ref="frontbody"></property>  
+<property name="truckWindow" ref="truckWindow"></property>
+<property name="truckGate" ref="truckGate"></property>   
+</bean>  
+  
+</beans>  
