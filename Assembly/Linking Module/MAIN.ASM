@@ -1,0 +1,36 @@
+EXTRN RENDER:FAR
+			ASSUME CS:CODE
+DATA		SEGMENT
+x			DW				20
+y			DW				3
+w			DW				10
+h			DW				5
+buf			DB				'AASAAAAAAA'
+			DB				'AASAAAAAAA'
+			DB				'AASSSSSSSA'
+			DB				'AAAAAAAAAA'			
+			DB				'AAAAAAAAAA'			
+DATA		ENDS
+CODE		SEGMENT
+MAIN		PROC
+			MOV AX,SEG DATA 
+			MOV DS,AX
+			MOV SI,OFFSET x
+			LODSW
+			PUSH AX			
+			LODSW
+			PUSH AX			
+			LODSW
+			PUSH AX			
+			LODSW
+			PUSH AX			
+			MOV AX, OFFSET buf
+			PUSH AX
+			CALL RENDER
+			ADD SP, 10
+			MOV AH,4CH
+			INT 21H
+MAIN		ENDP			
+CODE		ENDS
+			END MAIN
+			
