@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<persons>
+    <person gender="male">
+        <firstname>John</firstname>
+        <lastname>Lennon</lastname>
+        <age>45</age>
+    </person>
+    <person gender="female">
+        <firstname>Paula</firstname>
+        <lastname>McCartney</lastname>
+        <address>
+            <city>Muntinlupa</city>
+            <country>Phillipines</country>
+        </address>
+            <address>
+                <city>Manila</city>
+            </address>
+        <age>41</age>
+    </person>
+    <person gender="female">
+        <firstname>Ringa</firstname>
+        <lastname>Star</lastname>
+        <address>
+            <city>Makati</city>
+        </address>
+        <age>47</age>
+    </person>
+    <person gender="male">
+        <firstname>George</firstname>
+        <lastname>Harrison</lastname>
+        <age>42</age>
+    </person>
+</persons>

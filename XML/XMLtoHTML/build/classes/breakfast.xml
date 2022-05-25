@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<bookstore>
+  <book>
+    <title>Harry Potter</title>
+    <author>J K. Rowling</author>
+    <category>Children</category>
+    <price>29.99</price>
+    <year>2005</year>
+  </book>
+  <book>
+    <title>Learning XML</title>
+    <author>Erik T. Ray</author>
+    <category>Web</category>
+    <price>39.95</price>
+    <year>2003</year>
+  </book>
+</bookstore>
+
+<serviceReferences>
+    <service>
+         
+    </service>
+    
+        <firstname>John</firstname>
+        <lastname>Lennon</lastname>
+        <age>45</age>
+    </order>
+    <person gender="female">
+        <firstname>Paula</firstname>
+        <lastname>McCartney</lastname>
+        <address>
+            <city>Muntinlupa</city>
+            <country>Phillipines</country>
+        </address>
+            <address>
+                <city>Manila</city>
+            </address>
+        <age>41</age>
+    </person>
+    <person gender="female">
+        <firstname>Ringa</firstname>
+        <lastname>Star</lastname>
+        <address>
+            <city>Makati</city>
+        </address>
+        <age>47</age>
+    </person>
+    <person gender="male">
+        <firstname>George</firstname>
+        <lastname>Harrison</lastname>
+        <age>42</age>
+    </person>
+</persons>
