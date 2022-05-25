@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <customerOrder><itemData><itemID>001</itemID><itemName>Cheese Burger</itemName><itemDescription>Mcdo Cheese-burger</itemDescription><itemPrice>45</itemPrice><itemQuantity>1</itemQuantity></itemData><branch><address>Isidora Hills Subdivision, Holy Spirit Dr, Quezon City, Metro Manila</address><zip>1120</zip></branch><rider><riderID>001</riderID><riderName>John Smith</riderName><contactNo>0977123456</contactNo></rider></customerOrder>

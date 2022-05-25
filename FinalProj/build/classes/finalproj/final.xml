@@ -1,0 +1,43 @@
+<serviceReferences>
+    <service>
+        <order>
+            <orderID>001</orderID>
+            <ordertype>
+                <orderName>Cheese Burger</orderName>
+                <description>Mcdo Cheese-burger</description>
+                <orderPrice>45</orderPrice>
+                <orderQuantity>1</orderQuantity>
+                <discount>
+                    <voucherID>No Discount</voucherID>
+                </discount>
+                <unitPrice>45</unitPrice>
+            </ordertype>
+            <restaurantID>
+                <address>Isidora Hills Subdivision, Holy Spirit Dr, Quezon City, Metro Manila</address>
+                <postalcode>1120</postalcode>
+                <city>Quezon City</city>
+            </restaurantID>
+        </order>
+        <customer>
+            <customerID>001</customerID>
+            <name>Cristan Lansang</name>
+            <contact>09771725630</contact>
+            <deliveryAddress>
+                <notes>Blue gate</notes>
+                <address>6 Salazar st. BF homes Q.C</address>
+                <postalcode>1120</postalcode>
+                <city>Quezon City</city>
+            </deliveryAddress>
+        </customer>
+        <employee>
+            <employeeID>001</employeeID>
+            <name>John Smith</name>
+            <contact>0977123456</contact>
+        </employee>
+        <payment>
+            <method>Gcash</method>
+            <amountTotal>45</amountTotal>
+            <deliveryCharge>39</deliveryCharge>
+        </payment>
+    </service>
+</serviceReferences>
